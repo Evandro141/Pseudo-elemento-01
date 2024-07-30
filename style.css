@@ -1,0 +1,46 @@
+/* Anatomia de Uma Pseudo-Elemento
+seletor::pseudo-elemento {
+    propriedade: valor
+} */
+
+
+/* First-letter = Estilizando a Primeira Letra  */
+.letra::first-letter {
+    background-color: red;
+}
+
+
+/* First-line = Estilizando a Primeira Linha  */
+.linha::first-line {
+    background-color: yellow;
+}
+
+
+/* Estilizando letra e Linha ao Mesmo Tempo  */
+.letra::first-line {
+    background-color: aqua;
+}
+
+
+/* Marker = Estilizando Os Marcadores de Uma Lista  */
+.lista li::marker {
+    color: red;
+    font-size: 30px;
+}
+
+
+/* Before = Adicionando um Elemento Antes  */
+h3::before {
+    content: url(./android-chrome-192x192.png);
+}
+
+
+/* After = Adicionando Um Elemento Depois  */
+h4::after {
+    content: "";
+    background: url(./android-chrome-192x192.png) center center;
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+}
+

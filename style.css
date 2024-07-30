@@ -4,6 +4,11 @@ seletor::pseudo-elemento {
 } */
 
 
+body {
+    background-color: aqua;
+}
+
+
 /* First-letter = Estilizando a Primeira Letra  */
 .letra::first-letter {
     background-color: red;
